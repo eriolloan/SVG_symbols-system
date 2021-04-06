@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMMO SVG Icon Symbols</title>
+    <link rel="stylesheet" href="svg-icons.css">
+    <style>
+        /* this styling has nothing to do with icon usage */
+        body {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 0 0 48px 48px;
+        }
+        body>div {
+            margin: 48px 48px 0 0;
+        }
+        body>div>div {
+            display:flex;
+            align-items: center;
+            height: 48px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div>
+        <h1> IMMO SVG symbols</h1>
+        <p>
+            pour éviter d'avoir un dossier plein de SVG et pouvoir aussi éditer la taille et la couleur des icônes, on peut utiliser un fichier SVG unique et appeller les icônes depuis le html avec une balise <b>use</b> dans un balise <b>svg</b>.
+        </p>
+    </div>
+        <!-- 16 px ICONS -->
+    <div>
+        <div>
+            <icon class="icon-16">
+            <svg class="icon"><use href="svg-icons.svg#icon-house"     xlink:href="svg-icons.svg#icon-house"></svg>
+            </icon><span>#icon-house .icon-16</span>
+        </div>
+        <div>
+            <icon class="icon-16">
+            <svg class="icon"><use href="svg-icons.svg#icon-flat"     xlink:href="svg-icons.svg#icon-flat"></svg>
+            </icon><span>#icon-flat .icon-16</span>
+        </div>
+        <div>
+            <icon class="icon-16">
+            <svg class="icon"><use href="svg-icons.svg#icon-surface"     xlink:href="svg-icons.svg#icon-surface"></svg>
+            </icon><span>#icon-surface .icon-16</span>
+        </div>
+        <div>
+            <icon class="icon-16">
+                <svg class="icon"><use href="svg-icons.svg#icon-city"     xlink:href="svg-icons.svg#icon-city"></svg>
+            </icon><span>#icon-city .icon-16</span>
+        </div>
+    </div>
+    <!-- 24 px ICONS -->
+    <div>
+        <div>
+            <icon class="icon-24">
+            <svg class="icon"><use href="svg-icons.svg#icon-house"     xlink:href="svg-icons.svg#icon-house"></svg>
+            </icon><span>#icon-house .icon-24</span>
+        </div>
+        <div>
+            <icon class="icon-24">
+            <svg class="icon"><use href="svg-icons.svg#icon-flat"     xlink:href="svg-icons.svg#icon-flat"></svg>
+            </icon><span>#icon-flat .icon-24</span>
+        </div>
+        <div>
+            <icon class="icon-24">
+            <svg class="icon"><use href="svg-icons.svg#icon-surface"     xlink:href="svg-icons.svg#icon-surface"></svg>
+            </icon><span>#icon-surface .icon-24</span>
+        </div>
+        <div>
+            <icon class="icon-24">
+                <svg class="icon"><use href="svg-icons.svg#icon-city"     xlink:href="svg-icons.svg#icon-city"></svg>
+            </icon><span>#icon-city .icon-24</span>
+        </div>
+    </div>
+    <!-- 32 px ICONS -->
+    <div>
+        <div>
+            <icon class="icon-32">
+            <svg class="icon"><use href="svg-icons.svg#icon-house"     xlink:href="svg-icons.svg#icon-house"></svg>
+            </icon><span>#icon-house .icon-32</span>
+        </div>
+        <div>
+            <icon class="icon-32">
+            <svg class="icon"><use href="svg-icons.svg#icon-flat"     xlink:href="svg-icons.svg#icon-flat"></svg>
+            </icon><span>#icon-flat .icon-32</span>
+        </div>
+        <div>
+            <icon class="icon-32">
+            <svg class="icon"><use href="svg-icons.svg#icon-surface"     xlink:href="svg-icons.svg#icon-surface"></svg>
+            </icon><span>#icon-surface .icon-32</span>
+        </div>
+        <div>
+            <icon class="icon-32">
+                <svg class="icon"><use href="svg-icons.svg#icon-city"     xlink:href="svg-icons.svg#icon-city"></svg>
+            </icon><span>#icon-city .icon-32</span>
+        </div>
+    </div>
+    <!-- 48 px ICONS -->
+    <div>
+        <div>
+            <icon class="icon-48">
+            <svg class="icon"><use href="svg-icons.svg#icon-house"     xlink:href="svg-icons.svg#icon-house"></svg>
+            </icon><span>#icon-house .icon-48</span>
+        </div>
+        <div>
+            <icon class="icon-48">
+            <svg class="icon"><use href="svg-icons.svg#icon-flat"     xlink:href="svg-icons.svg#icon-flat"></svg>
+            </icon><span>#icon-flat .icon-48</span>
+        </div>
+        <div>
+            <icon class="icon-48">
+            <svg class="icon"><use href="svg-icons.svg#icon-surface"     xlink:href="svg-icons.svg#icon-surface"></svg>
+            </icon><span>#icon-surface .icon-48</span>
+        </div>
+        <div>
+            <icon class="icon-48">
+                <svg class="icon"><use href="svg-icons.svg#icon-city"     xlink:href="svg-icons.svg#icon-city"></svg>
+            </icon><span>#icon-city .icon-48</span>
+        </div>
+    </div>
+    <div>
+        <p>
+            Plus d'infos sur les SVG Symbols/use :
+            <ul>
+                <li><a href="https://blog.nucleoapp.com/the-guide-to-integrating-and-styling-icon-systems-svg-sprites-svg-symbols-and-icon-fonts-da7c424dac1b">Integrating and styling icon systems</a></li>
+                <li><a href="https://css-tricks.com/svg-sprites-use-better-icon-fonts/">CSS-tricks : Better icon fonts</a></li>
+            </ul>
+        </p>
+    </div>
+</body>
+</html>

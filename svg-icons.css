@@ -1,0 +1,47 @@
+icon {
+    display : inline-block;
+    vertical-align: baseline;
+    padding: 0 .5rem;
+}
+
+.icon path {
+    fill: #231F20;
+}
+
+.icon path.path--color1 {
+    fill: #EC5C55BB;
+}
+
+.icon path.path--color2 {
+    fill: #EC5C55;
+}
+
+.icon-16,
+.icon-16 .icon {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-24,
+.icon-24 .icon {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-32,
+.icon-32 .icon {
+    width: 32px;
+    height: 32px;
+}
+
+.icon-48,
+.icon-48 .icon {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-64,
+.icon-64 .icon {
+    width: 64px;
+    height: 64px;
+}
